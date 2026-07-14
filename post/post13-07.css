@@ -1,0 +1,227 @@
+/* ============================
+   HEADER ESTILO HACKER / OSINT LAB
+   ============================ */
+
+header {
+  background-color: #000000; /* fondo negro como el index */
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid #00e0ff;
+  box-shadow: 0 0 25px rgba(0, 224, 255, 0.15);
+  border-radius: 6px;
+}
+
+/* Título principal */
+header h1 {
+  font-size: 32px;
+  color: #00e0ff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px rgba(0, 224, 255, 0.5);
+  letter-spacing: 1px;
+}
+
+/* Subtítulo */
+header p {
+  color: #9bb3c9;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Tag del nombre */
+header .w3-tag {
+  background-color: #00e0ff !important;
+  color: #0a0f1a !important;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Botón volver */
+header .back-button {
+  margin-top: 25px;
+  background-color: #0d2038 !important;
+  color: #00e0ff !important;
+  border: 1px solid #00e0ff !important;
+  padding: 12px 22px;
+  border-radius: 4px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+header .back-button:hover {
+  background-color: #00e0ff !important;
+  color: #0a0f1a !important;
+  box-shadow: 0 0 12px #00e0ff;
+}
+
+/* ============================
+   RESPONSIVE HEADER
+   ============================ */
+
+@media (max-width: 600px) {
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  header .back-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
+}
+
+/* ============================
+   ESTILO GENERAL DEL POST
+   ============================ */
+body {
+  background-color: #0a0f1a; /* azul marino casi negro */
+  color: #d0d8e8; /* gris azulado suave */
+}
+/* Contenedor principal del post */
+.post-container {
+  background-color: #0f1624; /* navy oscuro */
+  border: 1px solid #0d2038;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.08);
+  border-radius: 6px;
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box; /* evita desbordes */
+}
+
+/* Título del post */
+.post-container h2 {
+  color: #00e0ff;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px rgba(0, 224, 255, 0.4);
+}
+
+/* Texto del post */
+.post-container p {
+  color: #d0d8e8;
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* ============================
+   IMÁGENES DEL POST
+   ============================ */
+
+.post-image {
+  width: 100%;
+  max-width: 450px; /* más grande en pantallas grandes */
+  display: block;
+  margin: 20px auto;
+  border-radius: 6px;
+  filter: brightness(0.9) contrast(1.15);
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.12);
+}
+
+/* ============================
+   BOTÓN VOLVER AL INICIO
+   ============================ */
+
+.back-button {
+  background-color: #0d2038 !important;
+  color: #00e0ff !important;
+  border: 1px solid #00e0ff !important;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: 0.2s ease;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #00e0ff !important;
+  color: #0a0f1a !important;
+  box-shadow: 0 0 10px #00e0ff;
+}
+
+/* ============================
+   FOOTER DEL POST
+   ============================ */
+
+.post-footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background-color: #0d2038;
+  border-top: 1px solid #00e0ff;
+  color: #9bb3c9;
+  border-radius: 0 0 6px 6px;
+}
+
+.post-footer span {
+  color: #00e0ff;
+  font-weight: bold;
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+   ============================ */
+
+/* Tablets */
+@media (max-width: 900px) {
+  .post-container {
+    padding: 20px;
+  }
+
+  .post-container h2 {
+    font-size: 24px;
+  }
+
+  .post-container p {
+    font-size: 15px;
+  }
+
+  .post-image {
+    max-width: 380px;
+  }
+}
+
+/* Móviles */
+@media (max-width: 600px) {
+  .post-container {
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .post-container h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .post-container p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .post-image {
+    max-width: 300px;
+    margin: 15px auto;
+  }
+
+  .back-button {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .post-footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+}

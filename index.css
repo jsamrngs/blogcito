@@ -1,0 +1,96 @@
+/* Tipografía moderna estilo hacker */
+body, h1, h2, h3, h4, h5 {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+/* Fondo general oscuro */
+body {
+  background-color: #0a0f1a; /* azul marino casi negro */
+  color: #d0d8e8; /* gris azulado suave */
+}
+
+/* Encabezados más intensos */
+h1, h2, h3, h4, h5 {
+  color: #00e0ff; /* cian eléctrico */
+  letter-spacing: 1px;
+}
+
+/* Tarjetas estilo hacker */
+.w3-card, .w3-card-4 {
+  background-color: #0f1624; /* navy oscuro */
+  border: 1px solid #0d2038; /* borde sutil */
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.08);
+}
+
+/* Botones */
+.w3-button {
+  background-color: #0d2038 !important;
+  color: #00e0ff !important;
+  border: 1px solid #00e0ff !important;
+  transition: 0.2s ease;
+}
+
+.w3-button:hover {
+  background-color: #00e0ff !important;
+  color: #0a0f1a !important;
+  box-shadow: 0 0 10px #00e0ff;
+}
+
+/* Sidebar */
+.w3-container.w3-white,
+.w3-white {
+  background-color: #111827 !important;
+  color: #d0d8e8 !important;
+}
+
+/* Tags estilo neon */
+.w3-tag {
+  background-color: #00e0ff !important;
+  color: #0a0f1a !important;
+  font-weight: bold;
+}
+
+.w3-tag.w3-light-grey {
+  background-color: #1a2333 !important;
+  color: #9bb3c9 !important;
+}
+
+/* Links */
+a {
+  color: #00e0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 8px #00e0ff;
+}
+
+/* Imágenes con filtro hacker */
+img {
+  filter: brightness(0.85) contrast(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #0d2038 !important;
+  color: #9bb3c9 !important;
+  border-top: 1px solid #00e0ff;
+}
+
+/* Scrollbar estilo hacker */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0f1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00e0ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00bcd4;
+}

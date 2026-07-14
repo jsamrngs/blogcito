@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Docker + OSINT // OSINT LAB</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Tipografía moderna -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap">
+
+  <!-- CSS del post -->
+  <link rel="stylesheet" href="/post/post13-07.css">
+</head>
+
+<body>
+
+<div class="post-container" style="max-width:1000px">
+
+  <!-- Header -->
+  <header class="w3-center w3-padding-32">
+    <h1><b>MY BLOG // OSINT LAB</b></h1>
+    <p>Encapsulando herramientas de osint </p>
+
+    <a href="/index.html">
+      <button class="back-button">« Volver al inicio</button>
+    </a>
+  </header>
+
+  <!-- Contenido del post -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <!-- Sección 1 -->
+    <div class="w3-container">
+      <h2><b>Mis Primeros Pasos con Docker</b></h2>
+      <p>
+        Llevo tiempo esquivando el uso de Docker, pero finalmente me he decidido a explorar su universo.
+        Para sorpresa mía, la curva de aprendizaje no es tan empinada como esperaba. Con unos pocos comandos,
+        he logrado levantar contenedores y experimentar con herramientas de OSINT de manera aislada y reproducible.
+        Docker me ahorra pasos como instalar máquinas virtuales completas, permitiéndome centrarme en lo que realmente importa:
+        la investigación y el análisis de datos.
+        Aunque el mundo de Linux me apasiona, la portabilidad que ofrece Docker es un plus que no puedo ignorar.
+        Ahora puedo compartir mis entornos de investigación con colegas sin preocuparme por diferencias en sus sistemas operativos.
+      </p>
+    </div>
+
+    <!-- Sección 2 -->
+    <div class="w3-container">
+      <h2><b>Docker + OSINT</b></h2>
+      <p>
+        Creía que solo podía instalar herramientas más “oficiales”, pero descubrí que puedo empaquetar mis propios scripts
+        y herramientas personalizadas en contenedores Docker. Esto me permite crear un entorno de investigación completo,
+        con todas las dependencias necesarias, y compartirlo sin configuraciones complicadas.
+        Docker encapsula herramientas de OSINT en contenedores portables, asegurando que cualquier investigador pueda ejecutarlas
+        sin preocuparse por dependencias, versiones o configuraciones del sistema operativo.
+        <br><br>
+        En la imagen se aprecia cómo instalé herramientas populares como <b>Mr.Holmes</b> y <b>Tookie</b> en contenedores Docker,
+        creando un laboratorio portátil y reproducible.
+      </p>
+    </div>
+
+    <!-- Imagen 2 -->
+    <img src="/images/osint.png" alt="OSINT Tools" class="post-image">
+
+    <!-- Sección 3 -->
+    <div class="w3-container">
+      <p>
+        Al empaquetar herramientas como <b>sn0int</b>, <b>Tookie</b> o scrapers personalizados,
+        se obtiene un entorno reproducible que facilita auditorías, investigaciones y despliegues rápidos.
+      </p>
+    </div>
+
+    <!-- Imagen 3 -->
+    <img src="/images/harvester.png" alt="Docker Containers" class="post-image">
+
+    <div class="w3-container">
+      <p>
+        Aquí se puede ver un ejemplo de cómo ejecutar <b>theHarvester</b> dentro de un contenedor Docker,
+        aislando su entorno y asegurando que funcione de manera consistente en cualquier sistema.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="post-footer">
+    <p>Escrito por <span class="w3-tag">V</span></p>
+  </footer>
+
+</div>
+
+</body>
+</html>
